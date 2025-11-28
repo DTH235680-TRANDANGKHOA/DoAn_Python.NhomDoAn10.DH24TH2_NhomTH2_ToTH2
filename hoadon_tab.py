@@ -1,6 +1,6 @@
-import tkinter as tk
-from tkinter import ttk, messagebox
-from db import connect_db
+import tkinter as tk 
+from tkinter import ttk, messagebox # Thư viện giao diện để thông báo/lỗi
+from db import connect_db # Kết nối CSDL
 
 def create_view(parent_frame): # Tạo giao diện quản lý hóa đơn
     frame = tk.Frame(parent_frame, bg="#f4f4f4") # Màu nền khung chính
