@@ -158,7 +158,7 @@ class App(tk.Tk):
     def _create_sidebar(self):
         # Tạo khung sidebar bên trái
         self.sidebar_frame = tk.Frame(self, bg=self.sidebar_bg, width=220)
-        self.sidebar_frame.pack(side="left", fill="y")
+        self.sidebar_frame.pack(side="right", fill="y")
         self.sidebar_frame.pack_propagate(False)
 
         tk.Label(self.sidebar_frame, text="Chào sếp ạ!",
